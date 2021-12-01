@@ -1,0 +1,80 @@
+.card {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 400px;
+  height: fit-content;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+}
+
+.name {
+  font-size: 2rem;
+}
+
+.symbol {
+  margin-left: 5px;
+}
+
+.namewrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.price {
+  padding: 5px;
+  font-weight: bold;
+}
+
+.marketcap {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.volume {
+  font-weight: bold;
+  padding: 5px;
+}
+
+.uptrend {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  color: white;
+  padding: 1rem;
+  background-color: #11d811;
+}
+
+.downtrend {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: none;
+  font-size: 1rem;
+  color: white;
+  padding: 1rem;
+  background-color: #f00606;
+}
+
+svg {
+  background-color: transparent;
+}
+
+.priceChange {
+  margin-left: 5px;
+  background-color: transparent;
+  font-weight: bolder;
+}
